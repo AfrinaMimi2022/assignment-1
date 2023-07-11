@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: sans-serif;
 }
 
 .primary-btn{
@@ -20,55 +20,77 @@ body{
 .header{
     background-color: rgba(229, 84, 115, 0.1);
     width: 100%;
-    height: 850px;
+    height:fit-content;
+    margin-bottom: 100px;
 }
 
 .banner{
     display: flex;
-    padding: 50px 180px 0px 180px;
+    padding: 0 15%;
     align-items: center;
     justify-content: space-around;
 }
 
+/* .banner-content{
+    max-width:fit-content;
+} */
+
 .banner-title{
+    font-family: 'Fasthand', cursive;
     color: #272727;
     font-size: 60px;
     font-weight: 900;
 }
 
 .banner-flower{
-    width: 635px;
-    height: 800px;
+    width: 500px;
+    height: 700px;
 }
 
 .banner-description{
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 30px;
+    margin-top: 0;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 
+}
 /* featured-flower styles */
-.featured-flower{
+.featured, .featured-img{
+    margin: 2%;
     text-align: center;
-    /* margin: 5%; */
-    padding: 5% 30%;
 }
+
+.featured-flower{
+    margin-top: 3%;
+    padding: 0% 15%;
+    width:fit-content;
+}
+
 .featured-flower-title{
+    font-family: 'Fasthand', cursive;
     color: #272727;
-font-size: 40px;
-font-weight: 800;
+    font-size: 30px;
+    font-weight:900;
+}
+.featured-img{
+    width:fit-content;
 }
 
 .featured-flowers-example{
+    width: 100%;
     display:flex;
-    gap:20px;
-    padding:0 240px ;
+    gap:2%;
+    /* padding:0 15% ; */
     text-align: center;
 }
 .featured-flowers{
-    width: 464px;
+    width: 60%;
     height: 412px;
     /* border: 2px solid red; */
     border-radius: 300px 300px 0px 0px;
@@ -76,66 +98,99 @@ font-weight: 800;
 }
 
 .name-1{
-    background-color:  rgba(167, 33, 98, 0.15);;
+    background: rgba(167, 33, 98, 0.15);;
 }
 .name-2{
-background: rgba(5, 151, 160, 0.15);
+    background: rgba(5, 151, 160, 0.15);
 }
 .name-3{
     background: rgba(71, 125, 17, 0.15);
 }
 
 .flower-img{
-    margin-top:30px;
-    padding: 10%;
-    width: 280px;
-height: 350px;
+    margin-top:10%;
+    padding: 5%;
+    width:90%;
+    height: 88%;
 }
 .flower-a{
-    color: #272727;
+    color: #07ac80;
     font-size: 24px;
     font-weight: 700;
 }
 
 /* support styles */
 .support{
-    width: 1020px;
-    height: 220px;
+    width: 82%;
+    height:max-content;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 10px;
-    margin: 150px 240px ;
-    padding: 2% 1%;
+    gap: 2%;
+    margin: 8% 4%;
+    padding: 5%;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
 }
 
 .support-img{
     text-align: center;
-
 }
 
 /* hot deal style */
+.deal-section{
+    height:fit-content;
+
+}
 #deal{
-    height: 520px;
+    width: 116%;
+    height:fit-content;
+    padding: 0 10% 0 11%;
+    margin-left: -20%;
 }
 .deal-content{
     align-items: center;
-    padding: 10%;
     text-align: center;
 }
+/* .deal-section{
+    border:2px solid red;
+    width:100%;
+    margin: 0;
+    height:fit-content;
+    background: rgba(229, 84, 115, 0.05);
+}
 
+.deal-content{
+    align-items: center;
+    text-align: center;
+} */
+
+/* instagram styles */
+.insta-section{
+    width: 100%;
+    text-align: center;
+    padding: 0 5% 5% 5%;
+}
+
+.insta-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Fasthand', cursive;
+}
+.insta-description{
+    padding: 0 20%;
+}
 .instagram-content{
     display: flex;
-    width: 1020px;
-    margin: 0 240px ;
+    width: 87%;
+    gap:2px;
 }
 
 .instagram-flowers{
-    width: 250px;
-height: 300x;
-margin-right: 2%;
+    width: 25%;
+    height:25%;
+    margin-right: 2%;
 }
 
 
@@ -143,21 +198,20 @@ margin-right: 2%;
 .latest-deals{
     background-image: url('../Rectangle\ 9.png');
     background-repeat: no-repeat;
-    height: 400px;
-    /* margin: 50px 235px; */
-    width: 950px;
-    margin: 50px 235px ;
+    height:fit-content;
+    width: 83%;
+    margin: 0 5%;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 60px;
+    padding: 5%;
 }
 .latest-input{
     border: none;
     border-radius: 8px;
     padding: 20px 43px;
     width: 400px;
-    margin-right: 10px;
+    margin: 2%;
     height: 23px;
 }
 
@@ -165,7 +219,6 @@ margin-right: 2%;
 
 footer{
     width: 100%;
-
     background-color: black;
     display: flex;
     text-align: center;
@@ -174,12 +227,12 @@ footer{
 
 }
 .footer-content{
-    padding: 50px 240px;
+    padding: 40px 240px;
 }
 .footer-title{
     color: white;
-font-size: 48px;
-font-weight: 800;
+    font-size: 48px;
+    font-weight: 800;
 }
 
 
