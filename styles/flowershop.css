@@ -99,7 +99,6 @@ height: 350px;
 
 /* support styles */
 .support{
-    border: 2px solid red;
     width: 1020px;
     height: 220px;
     display: flex;
@@ -144,9 +143,22 @@ margin-right: 2%;
 .latest-deals{
     background-image: url('../Rectangle\ 9.png');
     background-repeat: no-repeat;
-    /* width: 1020px; */
     height: 400px;
-    margin: 50px 220px;
+    /* margin: 50px 235px; */
+    width: 950px;
+    margin: 50px 235px ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px;
+}
+.latest-input{
+    border: none;
+    border-radius: 8px;
+    padding: 20px 43px;
+    width: 400px;
+    margin-right: 10px;
+    height: 23px;
 }
 
 /* footer */
