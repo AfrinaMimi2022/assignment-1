@@ -141,7 +141,13 @@ margin-right: 2%;
 
 
 /* great deal css */
-
+.latest-deals{
+    background-image: url('../Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    /* width: 1020px; */
+    height: 400px;
+    margin: 50px 220px;
+}
 
 /* footer */
 
